@@ -5,7 +5,7 @@ on:
   schedule:
     - cron: '0 * * * ?'
 env:
-  GITHUB_NAME: LJX8006
+  GITHUB_NAME: ljx8006
   GITHUB_EMAIL: 7689709@qq.com
   ## 佳明配置
   GARMIN_AUTH_DOMAIN: ${{ secrets.GARMIN_AUTH_DOMAIN }}

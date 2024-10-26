@@ -3,9 +3,8 @@ name: garmin-sync-coros
 on:
   workflow_dispatch:
   schedule:
-  ##每天7点至8点，每10分钟执行一次
-    - cron: '0 0/10 7-8 * * ?'
-  ## - cron: '0 * * * ?'
+##    - cron: '0 0/10 7-8 * * ?'
+   - cron: '0 * * * ?'
   ##0 0/30 10-11,14-16 * * ?   每天10点到12点，14点到15点，每30分钟执行一次1
 env:
   GITHUB_NAME: ljx8006
